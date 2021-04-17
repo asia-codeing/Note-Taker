@@ -11,9 +11,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const notesData = [
-    
-];
 
 app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, 'public/notes.html'))); 
 
@@ -41,13 +38,13 @@ app.post('/api/notes', (req,res) => {
 });
 app.delete('/api/notes/:id', (req,res) => {
 
-    const idNote = req.params.id.toString;
+    const idNote = req.params.id;
     console.log(idNote);
 
     let savedNotes = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));
 
     // filter data to get notes except the one to delete
-    const dataFilter = savedNotes.filter( note => note.id.toString() !== idNote);
+    const dataFilter = savedNotes.filter( note => note.id !== idNote);
 
      // Write new data to 'db.json' file
      fs.writeFileSync('./db/db.json', JSON.stringify(dataFilter));
