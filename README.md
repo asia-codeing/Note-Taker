@@ -1,4 +1,4 @@
-# Note-Taker
+# Note Taker Application
 [![licensing](https://img.shields.io/badge/license-MIT-brightgreen)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository#searching-github-by-license-type)
 
 ## Description:
@@ -13,7 +13,7 @@ This application will use an Express.js back end and will save and retrieve note
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## Installation
+  ## Installation:
   We need to make sure that our repo contain `package.json` with the required dependencies to get these files we need to apply the following commands:
   * ``` npm init ``` to install the package.json.
   * ``` npm install inquirer ``` to install the inquirer package. 
@@ -25,12 +25,9 @@ This application will use an Express.js back end and will save and retrieve note
   * In the command line type node followed by the name of the file, like the command bellow: 
 
   ```
-  node index.js  
+  node server.js  
   ```
-  * you will get series of questions you need to answer them. 
-  * After answering the questions you will get sucsess message and the HTML file that get generated.
-
-
+  
   ## Walkthrough Video:
   Check this video that demonstrates the functionality of the application:<br />
    [Walkthrough-Video]()
