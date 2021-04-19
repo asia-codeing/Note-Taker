@@ -16,13 +16,13 @@ This application will use an Express.js back end and will save and retrieve note
   ## Installation:
   We need to make sure that our repo contain `package.json` with the required dependencies to get these files we need to apply the following commands:
   * ``` npm init ``` to install the package.json.
-  * ``` npm install inquirer ``` to install the inquirer package. 
-  * ``` npm i jest -D ``` to install jest package for testing.
+  * ``` npm i express ``` to install express package.
+  * ``` npm install uuid ``` to install uuid package used to create short non-sequential url-friendly unique ids.
 
   ## Usage:
   * open the terminal.
   * make sure you are in the right directory.
-  * In the command line type node followed by the name of the file, like the command bellow: 
+  * In the command line type node followed by the name of the server file, like the command bellow: 
 
   ```
   node server.js  
