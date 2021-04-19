@@ -33,7 +33,7 @@ This application will use an Express.js back end and will save and retrieve note
    [Walkthrough-Video]()
   
   ## Link to deployed application:
-   [Note-Taker](https://notes--application.herokuapp.com/notes)
+   [Note-Taker](https://notes--application.herokuapp.com/)
   
   ## License:
   This project is convered under the MIT License.
