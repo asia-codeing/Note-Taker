@@ -31,7 +31,7 @@ This application will use an Express.js back end and will save and retrieve note
   
   ## Walkthrough Video:
   Check this video that demonstrates the functionality of the application:<br />
-   [Walkthrough-Video](./images/notes-taker.gif)
+   ![Walkthrough-Video](./images/notes-taker.gif)
   
   ## Link to deployed application:
    [Note-Taker](https://notes--application.herokuapp.com/)
